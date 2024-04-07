@@ -1,0 +1,18 @@
+h3{
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background-color:rgb(138, 75, 75);
+}
+canvas{
+    animation-name:Animate;
+    animation-duration:4s;
+    animation-iteration-count : infinite;
+}
+@keyframes Animate{
+    from{box-shadow:1px 1px 40px rgb(0, 0, 0);}
+    to {box-shadow: 1px 1px 40px rgb(4, 1, 88);}
+}
+body{
+    background-size: cover;
+}
